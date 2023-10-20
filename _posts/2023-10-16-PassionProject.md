@@ -7,7 +7,7 @@
       padding: 0;
       background-image: url('https://th.bing.com/th/id/OIP.mSlymxB43XgE35tl1uBUsAHaEW?pid=ImgDet&rs=1');
       background-size: cover;
-      background-attachment: fixed; /* Optional: Fixed background */
+      background-attachment: fixed; 
       background-position: center;
     }
   </style>
