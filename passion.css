@@ -1,0 +1,9 @@
+    body {
+    background-image: url('https://th.bing.com/th/id/OIP.SwhrsHX409QaIR8-u14umgAAAA?pid=ImgDet&w=261&h=258&rs=1'); /* Replace with your image file */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Optional: Fixed background */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Make the background fill the entire viewport height */
+  }
