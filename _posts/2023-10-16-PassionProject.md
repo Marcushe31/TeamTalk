@@ -1,18 +1,11 @@
-
+---
+toc: false
+comments: true
+layout: post
+title: Passion Project
+---
 <html>
-<head>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-image: url('https://th.bing.com/th/id/OIP.mSlymxB43XgE35tl1uBUsAHaEW?pid=ImgDet&rs=1');
-      background-size: cover;
-      background-attachment: fixed; 
-      background-position: center;
-    }
-  </style>
-</head>
 <body>
-
-</body>
+  <img src="https://th.bing.com/th/id/OIP.SwhrsHX409QaIR8-u14umgAAAA?pid=ImgDet&w=261&h=258&rs=1" alt="Password" width="2000" height="1000">
+  </body>
 </html>
