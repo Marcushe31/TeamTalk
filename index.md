@@ -13,7 +13,7 @@ title: Passion Project
 </head>
 <body>
     <header>
-        <img src="dnhslogo.webp" alt="Logo" id="logo">
+        <img src="images/dnhslogo.webp" alt="Logo" id="logo">
         <nav>
             <a href="#">Expansions</a>
             <a href="#">Cards</a>
