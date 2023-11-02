@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player Inf</title>
+    <title>Player Info</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,11 +21,21 @@
             padding: 20px;
         }
         .profile img {
-            width: 100px;
-            height: 100px;
+            width: 200px; /* Increased the image size */
+            height: 200px; /* Increased the image size */
+            border: 2px solid black; /* Added a black border */
+            display: block; /* Added to center the image */
+            margin: 0 auto; /* Added to center the image */
+        }
+        .profile h1 {
+            font-weight: bold; /* Added bold text for the name */
+            text-align: center; /* Centered the name */
         }
         .bio {
             margin-top: 20px;
+        }
+        .bio p {
+            font-size: 18px; /* Increased the font size for the statistics */
         }
     </style>
 </head>
@@ -34,13 +45,20 @@
     </div>
     <div class="profile">
         <img src="https://static.hudl.com/users/prod/14680174_ef15ecfbe5c346ebb1d5868110f88110.jpg" alt="Jack Schneider">
+        <h1>Jack Schneider #2</h1>
         <div class="bio">
+          <a href="https://www.maxpreps.com/ca/san-diego/del-norte-nighthawks/athletes/jack-schneider/football/stats/?careerid=cklsf4pqmel88">View on MaxPreps Here:</a>
             <p><strong>Plays:</strong> Football</p>
             <p><strong>Class Year:</strong> Senior - 2024</p>
             <p><strong>Teams:</strong> Del Norte Varsity Football</p>
+            <p><strong>Position:</strong> Quarter Back</p>
             <p><strong>Measurements:</strong></p>
             <p>Height: 6'0"</p>
             <p>Weight: 170 lbs</p>
+            <p><strong>Stats:</strong></p>
+            <li> 6687 Yards</li>
+            <li>76 Touchdown Passes</li>
+            <li>196.7 Yards per Game</li>
         </div>
     </div>
 </body>
