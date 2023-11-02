@@ -1,0 +1,19 @@
+<script>
+    async function apiCall(){
+        const apiLink = "http://127.0.0.1:8086/api/passion"
+        try {
+            const response = await fetch(apiLink);
+            if (response.ok) {
+                const msg = await response.json();
+                return msg
+                console.log(msg)
+            }    
+        }
+        catch (error) {
+            return error
+        }
+}
+</script>
+<html>
+    <button onclick = "apiCall()">click me</button>
+</html>
